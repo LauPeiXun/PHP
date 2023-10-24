@@ -1,0 +1,129 @@
+html{
+     padding: auto;
+     margin: auto;
+   }
+
+body {
+     background-image: url(/assignment/picture/background.gif);
+     background-size: cover;
+     margin: 0;
+     padding: 0;
+     font-family: 'Helvetica Neue', sans-serif;
+     font-size: 17px;
+}
+
+/* Style the search form */
+.search-event {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     margin-top: 20px;
+}
+
+.search-event input[type="text"] {
+     padding: 10px;
+     border-radius: 20px;
+     border: none;
+     font-size: 18px;
+     width: 500px;
+     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+     margin-right: 10px;
+}
+
+.search-event input[type="submit"] {
+     /* background-color: rgba(148, 0, 211, 0.355); */
+     background-color: #8c61ff;
+     color: white;
+     border-radius: 10px;
+     border: none;
+     font-size: 18px;
+     padding: 8px 20px;
+     cursor: pointer;
+     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-event input[type="submit"]:hover {
+     /* background-color: rgba(148, 0, 211, 0.955); */
+     background-color: #7642bb;
+     transition: all 0.4s linear;
+}
+
+.sort_column, .sort_style {
+     border-radius: 20px;
+     font-size: 16px;
+     margin-left: 10px;
+     padding: 5px;
+     font-family: 'Helvetica Neue', sans-serif;
+     color: rgba(0, 0, 0, 0.6);
+}
+
+/*event style */
+.event-container {
+     display: flex;
+     flex-wrap: wrap;
+}
+
+.event-container {
+     display: flex;
+     flex-wrap: wrap;
+     color: white;
+}
+
+.event-item {
+     display: flex;
+     margin: 20px;
+     background-color: rgba(0, 0, 0, 0.4);
+     padding: 10px;
+     border-radius: 10px;
+}
+
+.event-item img {
+     width: 300px;
+     height: auto;
+     margin-right: 20px;
+     padding: 5px;
+     border-radius: 20px;
+     border: 1px solid #ddd;
+}
+
+.event-details {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+
+/*profile style */
+#profile-pic-container {
+     margin: 10px;
+     display: flex;
+     align-items: center;
+}
+
+#picture {
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     object-fit: cover;
+     border: white solid 3px;
+}
+
+#displayname {
+     display: block;
+     text-align: left;
+     margin-left: 15px;
+     margin-top: 6px;
+     font-size: 18px;
+     font-weight: bold;
+     color: #ddd;
+}
+
+#user {
+     display: flex;
+     align-items: center;
+     margin-top: 10px;
+}
+
+#profile {
+     margin-left: 50px;
+}

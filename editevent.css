@@ -1,0 +1,90 @@
+/* Body */
+body {
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+video {
+  /* position: absolute; */
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  }
+
+/* Style the form labels */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Style the form inputs */
+input[type="text"],
+input[type="date"],
+input[type="time"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Style the delete button */
+input[type=submit][value="Delete Event"] {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+input[type="submit"][value="Delete Event"]:hover {
+  background-color: #d32f2f;
+}
+
+h1{
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 150px;
+  text-align: center;
+  margin-top: 50px;
+  color: rgb(1, 1, 1);
+}
+
+.event-details {
+  font-size: 30px;
+  text-align: center;
+  border: 4px solid black;
+  margin:50px;
+}
+
+form{
+  border:10px;
+  margin:30px;
+  font-size: 25px;
+
+}

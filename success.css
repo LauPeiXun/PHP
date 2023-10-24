@@ -1,0 +1,67 @@
+html{
+    padding: auto;
+    margin: auto;
+}
+
+body{
+    background: url(/assignment/picture/background.gif);
+    background-size: cover;
+    padding: 0%;
+    margin: 0%;
+   }
+
+#box{
+     display: flex;
+     justify-content: center;
+ }
+ #successBox{
+     justify-content: center;
+     width: 400px;
+     height: 400px;
+     background-color: white;
+     margin-top: 20px;
+     border: 1px solid gray;
+     border-radius: 13px;
+ }
+ #successP {
+     display:flex;
+     justify-content: center;
+     font-weight: bold;
+     font-size: 26px;
+     padding-top: 5px;
+ }
+ #word{
+     display:flex;
+     text-decoration: none;
+     color: black;
+     margin-top: 20px;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-around;
+ }  
+ 
+ #btn1, #btn2{
+     background-color: black;
+     background-size: 30px;
+     border: 2px solid gray;
+     border-radius: 5px;
+     font-size: 16px;
+     background-color: #8c61ff;
+     padding-left: 8px;
+     padding-right: 8px;
+ }
+ 
+ #btn1>p:hover, #btn2>p:hover{
+     background-color: black;
+ }
+ #tyBox{
+     display: flex;
+     margin-top: 0px;
+     margin-bottom: 0px;
+     justify-content: center;
+ }   
+ #ty{
+     width: 220px;
+     height: 220px;
+ }
+ 
